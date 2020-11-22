@@ -44,7 +44,7 @@ h1{
 }
 .moves i{
     font-size: 100px;
-    color: #f1bb0a;
+    color: lavender;
 }
 h2{
     font-family: sans-serif;
@@ -67,5 +67,5 @@ h2{
     cursor: pointer;
     background : rgb(41, 40, 40);
     font-size: 35px;
-    color: #f1bb0a;
+    color: lavender;
 }

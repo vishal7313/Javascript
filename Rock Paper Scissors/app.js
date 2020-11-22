@@ -21,9 +21,9 @@ const game = () => {
                 playerS.innerHTML = playerS.innerHTML;
                 computerS.innerHTML = computerS.innerHTML;
                 resultText.innerHTML = "It's a tie.";
-                resultText.style.color = 'yellow';
+                resultText.style.color = 'orange';
                 toggleText.innerHTML = toggleText.innerHTML;
-                toggleText.style.color = 'yellow';
+                toggleText.style.color = 'orange';
             }
             else if(playerMoves.className === RPS[0] && computerMoves.className === RPS[1] ||
                     playerMoves.className === RPS[1] && computerMoves.className === RPS[2] ||
