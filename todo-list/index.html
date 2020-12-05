@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ToDo List</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>To Do List</h1>
+            <br>
+            <div class="row">
+                <div class="col-12" id ="note">
+                    <p>Note: Enter text in the field to add in the list. 
+                        Click on "X" to remove item from your list.
+                        Click on the item in the list to mark it as complete.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12">
+                    <input id="userInput" type="text" placeholder="Enter New Item">
+                    <button id="enter">Submit</button>
+                </div>
+            </div>
+
+            <!-- Empty List -->
+            <div class="row">
+                <div class="items col-12">
+                    <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
